@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="iJobsPlace.Entities.Accounts.Profile" Collapsed="true">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\Profile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.User">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAEAAACAAAAAAAAAAQAAAAAAQAAAAABAAAAAAAAg=</HashCode>
+      <FileName>Accounts\User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Addresses" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Common.Address">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Common\Address.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="City" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Common.City">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\City.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Country" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Common.Coordinate">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Coordinate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Common.Country">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Common.Location" Collapsed="true">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
