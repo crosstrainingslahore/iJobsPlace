@@ -1,26 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="iJobsPlace.Entities.Accounts.Profile" Collapsed="true">
-    <Position X="11.25" Y="1.25" Width="1.5" />
+  <Class Name="iJobsPlace.Entities.Accounts.Profile">
+    <Position X="13.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAADAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Accounts\Profile.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="iJobsPlace.Entities.Accounts.User">
-    <Position X="10" Y="2.75" Width="1.5" />
+    <Position X="10.25" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABCAEAAACAAAAAAAAAAQAAAAAAQAAAAABAAAAAAAAg=</HashCode>
       <FileName>Accounts\User.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Profile" />
+    </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="Addresses" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="iJobsPlace.Entities.Common.Address">
-    <Position X="5.25" Y="4" Width="1.5" />
+    <Position X="10" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAIAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAgAAAAgIAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
       <FileName>Common\Address.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -28,7 +34,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="iJobsPlace.Entities.Common.City">
-    <Position X="2.5" Y="2.5" Width="1.5" />
+    <Position X="7.75" Y="9" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Common\City.cs</FileName>
@@ -38,25 +44,157 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="iJobsPlace.Entities.Common.Coordinate">
-    <Position X="9" Y="0.75" Width="1.5" />
+    <Position X="7" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Common\Coordinate.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="iJobsPlace.Entities.Common.Country">
-    <Position X="7.5" Y="2.75" Width="1.5" />
+    <Position X="12.25" Y="9" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Common\Country.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="iJobsPlace.Entities.Common.Location" Collapsed="true">
-    <Position X="4.75" Y="1.25" Width="1.5" />
+  <Class Name="iJobsPlace.Entities.Common.Location">
+    <Position X="10" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Common\Location.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Coordinate" />
+    </ShowAsAssociation>
   </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.Certification">
+    <Position X="7.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAACQgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Accounts\Certification.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Institute" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.Company">
+    <Position X="15.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAABACAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\Company.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.EducationInformation">
+    <Position X="4.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\EducationInformation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Institute" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.Employer">
+    <Position X="12.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Accounts\Employer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Company" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.ExperienceInformation">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAAAAAAAAAAAAAgAAAAAgAAAAAABEAAAAA=</HashCode>
+      <FileName>Accounts\ExperienceInformation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Company" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.Hobby">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\Hobby.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.Institute">
+    <Position X="10" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\Institute.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.Language">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\Language.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Level" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.PersonalInformation">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAAAEAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\PersonalInformation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.Seeker">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAKAAAAAAAAAAAAACAAEAAAAIAAAAAAAAAEAA=</HashCode>
+      <FileName>Accounts\Seeker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PersonalInfo" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Certifications" />
+      <Property Name="EducationInformation" />
+      <Property Name="ExperienceInformation" />
+      <Property Name="Hobbies" />
+      <Property Name="Languages" />
+      <Property Name="Skills" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="iJobsPlace.Entities.Accounts.Skill">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\Skills.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Level" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="iJobsPlace.Entities.Accounts.LanguageLevel" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\LanguageLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iJobsPlace.Entities.Accounts.SkillLevel" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAQ=</HashCode>
+      <FileName>Accounts\SkillLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

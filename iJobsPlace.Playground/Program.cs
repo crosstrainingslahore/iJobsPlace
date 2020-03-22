@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Linq;
-using iJobsPlace.Entities;
+using iJobsPlace.Entities.Accounts;
+
 namespace iJobsPlace.Playground
 {
     class Program
@@ -10,6 +10,9 @@ namespace iJobsPlace.Playground
             var user = new User();
             var profile = new Profile();
             
+            var employer = new Employer();
+             
+
           // user.Addresses.First().City.Country.Coordinate.Latitude
 
 
