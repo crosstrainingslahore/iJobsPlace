@@ -1,5 +1,5 @@
-﻿using System;
-using iJobsPlace.Entities.Common;
+﻿using iJobsPlace.Entities.Common;
+using System;
 
 namespace iJobsPlace.Entities.Accounts
 {

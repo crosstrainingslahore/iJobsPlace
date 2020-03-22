@@ -1,6 +1,6 @@
 ﻿namespace iJobsPlace.Entities.Common
 {
-    public class Address:Location
+    public class Address : Location
     {
         public int Id { get; set; }
         public int BuildingNumber { get; set; }

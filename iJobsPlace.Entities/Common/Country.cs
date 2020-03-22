@@ -1,6 +1,6 @@
 ﻿namespace iJobsPlace.Entities.Common
 {
-    public class Country:Location
+    public class Country : Location
     {
         public int Id { get; set; }
         public string Name { get; set; }

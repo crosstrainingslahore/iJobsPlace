@@ -1,5 +1,5 @@
-﻿using System;
-using iJobsPlace.Entities.Accounts;
+﻿using iJobsPlace.Entities.Accounts;
+using System;
 
 namespace iJobsPlace.Playground
 {
@@ -9,11 +9,11 @@ namespace iJobsPlace.Playground
         {
             var user = new User();
             var profile = new Profile();
-            
-            var employer = new Employer();
-             
 
-          // user.Addresses.First().City.Country.Coordinate.Latitude
+            var employer = new Employer();
+
+
+            // user.Addresses.First().City.Country.Coordinate.Latitude
 
 
 

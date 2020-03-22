@@ -2,7 +2,7 @@
 
 namespace iJobsPlace.Entities.Accounts
 {
-    public class Seeker:User
+    public class Seeker : User
     {
         public PersonalInformation PersonalInfo { get; set; }
         public List<EducationInformation> EducationInformation { get; set; }
